@@ -122,6 +122,6 @@ export const BtnList = [
 
 
 
-git commit -m "description"
-git push
+
+
 
