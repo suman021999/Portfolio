@@ -108,13 +108,13 @@ export const BtnList = [
   },
   {
     label: "Instgram",
-    link: "https://www.instagram.com/vini_02roxis/?igshid=OGY3MTU3OGY1Mw%3D%3D",
+    link: "https://www.instagram.com/patra9437/?igshid=OGY3MTU3OGY1Mw%3D%3D",
     icon: "instgram",
     newTab: true,
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "https://drive.google.com/file/d/1e2wXxFEgX_4oJvIBoIUeuEc9LLgk6PEE/view?usp=sharing",
     icon: "resume",
     newTab: true,
   },

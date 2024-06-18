@@ -3,6 +3,7 @@
 import { BtnList } from "@/app/data"
 import NavButton from "./NavButton"
 
+
 const Navigation = () => {
 
   const angleIncrement = 360/BtnList.length
@@ -13,7 +14,7 @@ const Navigation = () => {
     <div className="flex items-center justify-center relative hover:pause animate-spin-slow group">
       {
         BtnList.map((btn,index)=>{
-
+         
           const angleRed=(index * angleIncrement * Math.PI)/180
           const radius ="calc(20vw - 1rem)"
           
