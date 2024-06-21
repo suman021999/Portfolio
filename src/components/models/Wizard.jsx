@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
-export const Wizard=(props)=> {
+const Wizard=(props)=> {
 
 
  const modelRef=useRef()
@@ -204,6 +204,6 @@ export const Wizard=(props)=> {
     </group>
   )
 }
-
+export default Wizard;
 useGLTF.preload('/models/wizard-transformed.glb')
 

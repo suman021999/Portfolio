@@ -3,7 +3,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 
-export const Hat=(props)=> {
+const Hat=(props)=> {
   const { nodes, materials } = useGLTF('/models/hat-transformed.glb')
   const modelRef = useRef();
 
@@ -30,5 +30,5 @@ export const Hat=(props)=> {
     </group>
   )
 }
-
+export default Hat;
 useGLTF.preload('/models/hat-transformed.glb')

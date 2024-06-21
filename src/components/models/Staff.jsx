@@ -3,7 +3,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
-export const Staff=(props)=> {
+ const Staff=(props)=> {
   const { nodes, materials } = useGLTF('/models/staff-transformed.glb')
 const modelRef=useRef()
   useFrame(()=>{
@@ -63,6 +63,6 @@ modelRef.current.rotation.y +=0.007
     </group>
   )
 }
-
+export default Staff
 useGLTF.preload('/models/staff-transformed.glb')
 
