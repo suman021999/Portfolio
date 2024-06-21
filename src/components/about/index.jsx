@@ -36,7 +36,8 @@ const AboutDetails = () => {
           >
             <img 
              className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=suman021999&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&ring=FEFE5B&icon_color=FEFE5B&text_bold=false" 
+
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=suman021999&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&ring=FEFE5B&icon_color=FEFE5B&text_bold=false`} 
             alt="suman021999" loading="lazy" />
           </ItemLayout>
 
@@ -45,7 +46,7 @@ const AboutDetails = () => {
            >
             <img 
              className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=suman021999&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&ring=FEFE5B&icon_color=FEFE5B&text_bold=false" 
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=suman021999&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&ring=FEFE5B&icon_color=FEFE5B&text_bold=false`} 
             alt="CodeBucks" loading="lazy" />
           </ItemLayout>
 
@@ -57,7 +58,8 @@ const AboutDetails = () => {
           </ItemLayout>
           
           <ItemLayout className={"col-span-full !p-0"}>
-          <img className="w-full h-auto" src="https://github-readme-streak-stats.herokuapp.com?user=suman021999&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="GitHub Streak" />
+          <img className="w-full h-auto" src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=suman021999&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`} 
+          alt="GitHub Streak" />
           </ItemLayout>
 
 
