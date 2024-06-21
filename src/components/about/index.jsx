@@ -31,14 +31,18 @@ const AboutDetails = () => {
 
 
 
-          <ItemLayout className={"col-span-4 !p-0"}>
+          <ItemLayout 
+          className={"col-span-full  sm:col-span-12 md:col-span-4 !p-0"}
+          >
             <img 
              className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs?username=suman021999&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&ring=FEFE5B&icon_color=FEFE5B&text_bold=false" 
-            alt="CodeBucks" loading="lazy" />
+            alt="suman021999" loading="lazy" />
           </ItemLayout>
 
-          <ItemLayout className={"col-span-8 !p-0"}>
+          <ItemLayout
+            className={"col-span-full md:col-span-8 !p-0"}
+           >
             <img 
              className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api?username=suman021999&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&ring=FEFE5B&icon_color=FEFE5B&text_bold=false" 
