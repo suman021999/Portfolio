@@ -17,15 +17,7 @@ const AboutDetails = () => {
           </h2>
 
           <p className="font-light  text-xs sm:text-sm md:text-base">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          I wield JavaScript and frameworks like React.js and Next.js to craft seamless, dynamic, and secure web experiences. With the power of Jamstack and a keen design eye, I create captivating portals that connect users across the digital universe. Join me in exploring new technologies to shape the future of the web.
           </p>
           </ItemLayout>
 
@@ -57,13 +49,6 @@ const AboutDetails = () => {
             alt="CodeBucks" loading="lazy" />
           </ItemLayout>
           
-          <ItemLayout className={"col-span-full !p-0"}>
-          <img className="w-full h-auto" src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=suman021999&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`} 
-          alt="GitHub Streak" />
-          </ItemLayout>
-
-
-
           
           
         </div>
