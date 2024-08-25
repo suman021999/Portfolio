@@ -52,6 +52,13 @@ export const projectsData = [
     date: "2024-04-24",
     demoLink: "https://netflix-ui-sand.vercel.app/",
   },
+  {
+    id: 6,
+    name: "Fake acount management system",
+    description: "acount management system",
+    date: "2024-03-25",
+    demoLink: "https://acount321.netlify.app/",
+  },
   
 ];
 
