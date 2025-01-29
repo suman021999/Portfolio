@@ -33,10 +33,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Spotify UI",
-    description: "Spotify UI degine",
-    date: "2024-06-12",
-    demoLink: "https://stupendous-mermaid-030845.netlify.app/",
+    name: "Speed app",
+    description: "Typeing Speed check ",
+    date: "2025-01-29",
+    demoLink: "https://speeda7a.netlify.app/",
   },
   {
     id: 4,
