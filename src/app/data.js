@@ -56,7 +56,7 @@ export const projectsData = [
     id: 6,
     name: "Social media",
     description: "A app where you can watch an comments in shorts videos",
-    date: "2024-07-1",
+    date: "2025-07-1",
     demoLink: "https://youtube-shorts-bww3.vercel.app",
   },
       {
@@ -101,7 +101,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "https://drive.google.com/file/d/1e2wXxFEgX_4oJvIBoIUeuEc9LLgk6PEE/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1WwGQXBmojasyjlNdV86ZE6_LwRWESnYV/view?usp=sharing",
     icon: "resume",
     newTab: true,
   },
