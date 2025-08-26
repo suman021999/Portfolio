@@ -63,7 +63,7 @@ export const projectsData = [
     id: 7,
     name: "calender events",
     description: "A app where you can add your events in calender",
-    date: "2024-08-26",
+    date: "2025-08-26",
     demoLink: "https://calender-event-psi.vercel.app",
   },
   {
